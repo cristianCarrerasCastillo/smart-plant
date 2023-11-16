@@ -79,5 +79,6 @@ void loop() {
     Serial.println("Se apaga el motor");
     analogWrite(motor, 0);
   }
+  Serial.println("Al tuto por 1hr");
   enterSleep();
 }
