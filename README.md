@@ -1,12 +1,17 @@
 # Smart-plant
+![Logo del Proyecto](media/logo.png)
 
 Proyecto de Riego Automático con Arduino Nano
 
 Este repositorio contiene el código fuente y la documentación para un proyecto de riego automático utilizando un Arduino Nano, un sensor de humedad de suelo, una bomba sumergible de 3.3V, una resistencia de 2.2k ohmios y un transistor TIP120. Este sistema está diseñado para mantener el nivel de humedad del suelo dentro de un rango específico, activando la bomba de agua cuando sea necesario.
 
-## Contenido del Repositorio
+## Conexión
 
-- **/src**: Este directorio contiene el código fuente del programa. El archivo principal es `main.cpp`.
+![Logo del Proyecto](media/circuito_smart_plant.png)
+
+Conexión de ejemplo para el transistor tip120
+
+![Conexión tip 120](media/TIP120.png)
 
 ## Requisitos del Hardware
 
@@ -20,6 +25,10 @@ Este repositorio contiene el código fuente y la documentación para un proyecto
 
 1. **Calibración del Sensor de Humedad**: Antes de usar el sistema, calibra el sensor de humedad según sus propios requerimientos.
 
+
+![Conexión tip 120](media/sensor_humedad.png)
+
+
 2. **Alimentación del Sistema**: Conecta el Arduino Nano a una fuente de alimentación adecuada y asegúrate de que todos los componentes estén correctamente conectados.
 
 3. **Observación del Riego Automático**: Una vez que el sistema esté encendido, observa cómo la bomba se activa automáticamente cuando el suelo alcanza un nivel de humedad por debajo del umbral establecido.
@@ -31,3 +40,4 @@ Las contribuciones son bienvenidas. Si encuentras problemas, tienes sugerencias 
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+
